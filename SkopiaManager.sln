@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkopiaManager.API", "src\SkopiaManager.API\SkopiaManager.API.csproj", "{927C93CE-3D72-9D88-EF16-B380552E53A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkopiaManager.Application", "src\SkopiaManager.Application\SkopiaManager.Application.csproj", "{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkopiaManager.Infrastructure", "src\SkopiaManager.Infrastructure\SkopiaManager.Infrastructure.csproj", "{3EEE1853-004D-4390-BEB0-93C5088531BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkopiaManager.Domain", "src\SkopiaManager.Domain\SkopiaManager.Domain.csproj", "{FDF410EF-20C7-4EF3-8007-7A783AE11350}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkopiaManager.Tests", "tests\SkopiaManager.Tests\SkopiaManager.Tests.csproj", "{70B1ED2D-8D1B-472D-867C-9DA13A13182B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Itens de Solução", "Itens de Solução", "{380A7511-A354-6D7A-0CC0-8FA1F1BA7B6C}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{927C93CE-3D72-9D88-EF16-B380552E53A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927C93CE-3D72-9D88-EF16-B380552E53A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927C93CE-3D72-9D88-EF16-B380552E53A9}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{927C93CE-3D72-9D88-EF16-B380552E53A9}.Development|Any CPU.Build.0 = Development|Any CPU
+		{927C93CE-3D72-9D88-EF16-B380552E53A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927C93CE-3D72-9D88-EF16-B380552E53A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}.Development|Any CPU.Build.0 = Development|Any CPU
+		{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3F4DC5F-D3BE-AA8C-E8D7-463BFC99AC85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEE1853-004D-4390-BEB0-93C5088531BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEE1853-004D-4390-BEB0-93C5088531BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEE1853-004D-4390-BEB0-93C5088531BF}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{3EEE1853-004D-4390-BEB0-93C5088531BF}.Development|Any CPU.Build.0 = Development|Any CPU
+		{3EEE1853-004D-4390-BEB0-93C5088531BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEE1853-004D-4390-BEB0-93C5088531BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF410EF-20C7-4EF3-8007-7A783AE11350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF410EF-20C7-4EF3-8007-7A783AE11350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF410EF-20C7-4EF3-8007-7A783AE11350}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{FDF410EF-20C7-4EF3-8007-7A783AE11350}.Development|Any CPU.Build.0 = Development|Any CPU
+		{FDF410EF-20C7-4EF3-8007-7A783AE11350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF410EF-20C7-4EF3-8007-7A783AE11350}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70B1ED2D-8D1B-472D-867C-9DA13A13182B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70B1ED2D-8D1B-472D-867C-9DA13A13182B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70B1ED2D-8D1B-472D-867C-9DA13A13182B}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{70B1ED2D-8D1B-472D-867C-9DA13A13182B}.Development|Any CPU.Build.0 = Development|Any CPU
+		{70B1ED2D-8D1B-472D-867C-9DA13A13182B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70B1ED2D-8D1B-472D-867C-9DA13A13182B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B6F0D6D-D299-44F9-848D-42E5691CCFA6}
+	EndGlobalSection
+EndGlobal
