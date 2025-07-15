@@ -20,6 +20,7 @@ docker-compose up --build
 ```bash
 docker-compose down -v
 ```
+3. Abrir o navegador: http://localhost:5000/swagger
 ---
 ## 📩 Fase 2: Refinamento — Perguntas para o PO
 
