@@ -1,6 +1,11 @@
 # Skopia Manager API
 Sistema de gerenciamento de tarefas e projetos, desenvolvido como parte de um desafio técnico.
 
+Quando o projeto rodar no docker, lembre-se que ele ja vai criar 2 usuarios no banco,
+1-Gerente, 2-Desenvolvedor
+
+Estas informações são exibidas no swagger tbm.
+
 ## 🚀 Executando com Docker
 
 ### Pré-requisitos
